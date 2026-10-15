@@ -9,7 +9,7 @@ export const SeccionExperiencia = () => (
     <EncabezadoSeccion
       etiqueta="Trayectoria"
       titulo="Experiencia Laboral"
-      descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Listado cronológico de experiencias profesionales."
+      descripcion="Algunos de los trabajos que he desempeñado a lo largo de los años, tanto en el área de soporte técnico como en atención al cliente."
     />
 
     <Stack spacing={3} sx={{ mt: { xs: 5, md: 7 } }}>
