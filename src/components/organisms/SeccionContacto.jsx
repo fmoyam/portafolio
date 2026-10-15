@@ -13,7 +13,7 @@ export const SeccionContacto = () => (
     <EncabezadoSeccion
       etiqueta="Contacto"
       titulo="Trabajemos juntos"
-      descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Completa el formulario y me pondré en contacto contigo."
+      descripcion="Completa el formulario y me pondré en contacto contigo :)"
     />
 
     <Box

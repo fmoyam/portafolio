@@ -88,30 +88,21 @@ export const datosExperiencia = [
 export const datosEstudios = [
   {
     id: 'estudio-1',
-    institucion: 'Universidad Lorem Ipsum',
-    titulo: 'Magíster en Dolor Sit Amet',
-    periodo: '2019 — 2021',
-    anio: '2021',
+    institucion: 'Instituto Profesional DuocUC: Sede Maipú',
+    titulo: 'Analista Programador',
+    periodo: '2025 — 2027',
+    anio: 'Cursando',
     descripcion:
-      'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Carrera en proceso. Año de titulación estimado 2027.',
   },
   {
     id: 'estudio-2',
-    institucion: 'Instituto Consectetur',
-    titulo: 'Título Profesional en Ipsum Dolor',
-    periodo: '2013 — 2017',
-    anio: '2017',
+    institucion: 'Universidad Tecnológica Metropolitana',
+    titulo: 'Trabajo Social',
+    periodo: '2017 — 2021',
+    anio: 'Deserción en 2021',
     descripcion:
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.',
-  },
-  {
-    id: 'estudio-3',
-    institucion: 'Academia Tempor Incididunt',
-    titulo: 'Certificación en Labore et Dolore',
-    periodo: '2018',
-    anio: '2018',
-    descripcion:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Carrera desertada. Cambio de rumbo profesional.',
   },
 ]
 
@@ -164,30 +155,7 @@ export const datosProyectos = [
     demo: 'https://example.com/',
     acento: '#0A0B0D',
   },
-  {
-    id: 'proyecto-5',
-    destacado: true,
-    titulo: 'Labore Dolore Magna',
-    categoria: 'Dashboard',
-    descripcion:
-      'Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.',
-    tecnologias: ['Next.js', 'Labore', 'Dolore'],
-    repositorio: 'https://github.com/',
-    demo: 'https://example.com/',
-    acento: '#5B8DEF',
-  },
-  {
-    id: 'proyecto-6',
-    destacado: false,
-    titulo: 'Aliqua Ut Enim',
-    categoria: 'Open Source',
-    descripcion:
-      'Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.',
-    tecnologias: ['Vite', 'Aliqua', 'Veniam'],
-    repositorio: 'https://github.com/',
-    demo: 'https://example.com/',
-    acento: '#454C57',
-  },
+
 ]
 
 export const datosRedesSociales = [
@@ -213,7 +181,7 @@ export const datosRedesSociales = [
 
 export const datosPiePagina = {
   descripcion:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Portafolio construido con React y Material UI.',
-  lema: 'Consectetur adipiscing elit — Lorem ipsum.',
+    'Portafolio construido con React y Material UI.',
+  lema: 'Y un poquito de ayuda del Sr. OpenCode.',
   enlaces: enlacesNavegacion,
 }
