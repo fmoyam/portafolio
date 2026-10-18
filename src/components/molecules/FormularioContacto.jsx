@@ -26,7 +26,7 @@ export const FormularioContacto = () => {
           <CampoTexto
             name="nombre"
             label="Nombre"
-            placeholder="Lorem ipsum"
+            placeholder="Juan Perez"
             autoComplete="name"
             value={valores.nombre}
             onChange={manejarCambio}
@@ -38,7 +38,7 @@ export const FormularioContacto = () => {
             name="correo"
             type="email"
             label="Correo electrónico"
-            placeholder="lorem.ipsum@correo.com"
+            placeholder="jperez@correo.cl"
             autoComplete="email"
             value={valores.correo}
             onChange={manejarCambio}
@@ -51,7 +51,7 @@ export const FormularioContacto = () => {
         <CampoTexto
           name="asunto"
           label="Asunto"
-          placeholder="Dolor sit amet"
+          placeholder="Nuevo proyecto"
           value={valores.asunto}
           onChange={manejarCambio}
           onBlur={manejarBlur}
@@ -62,7 +62,7 @@ export const FormularioContacto = () => {
         <CampoTexto
           name="mensaje"
           label="Mensaje"
-          placeholder="Consectetur adipiscing elit…"
+          placeholder="Conversemos sobre un nuevo proyecto..."
           multiline
           minRows={5}
           value={valores.mensaje}

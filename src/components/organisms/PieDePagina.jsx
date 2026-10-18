@@ -18,7 +18,7 @@ const iniciales = datosPerfil.nombre
   .slice(0, 2)
   .toUpperCase()
 
-export const PieDePagina = () => {
+export const PieDePagina = () => {  // invoca funcion para obtener el año actual
   const anio = obtenerAnioActual()
 
   const irASeccion = (id) => (evento) => {

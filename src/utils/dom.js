@@ -5,4 +5,4 @@ export const desplazarASeccion = (id) => {
   }
 }
 
-export const obtenerAnioActual = () => new Date().getFullYear()
+export const obtenerAnioActual = () => new Date().getFullYear()  // extraer año en curso y se usa en piedepagina

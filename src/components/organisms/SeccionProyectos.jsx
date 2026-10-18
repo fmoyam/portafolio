@@ -32,8 +32,8 @@ export const SeccionProyectos = () => {
       >
         <EncabezadoSeccion
           etiqueta="Portafolio"
-          titulo="Desarrollos y Proyectos"
-          descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Galería de proyectos destacados con enlace al repositorio."
+          titulo="Proyectos Desarrollados"
+          descripcion="Aquí una pequeña muestra de los proyectos de los cuales he formado parte e iniciado de forma autónoma."
         />
         <Stack direction="row" spacing={1}>
           {FILTROS.map((opcion) => (

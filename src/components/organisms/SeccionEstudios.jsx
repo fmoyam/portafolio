@@ -9,7 +9,7 @@ export const SeccionEstudios = () => (
     <EncabezadoSeccion
       etiqueta="Formación"
       titulo="Estudios"
-      descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Detalle de la formación académica y certificaciones."
+      descripcion="Formación académica y lugares en los que he estudiado."
     />
 
     <Box

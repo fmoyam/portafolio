@@ -63,7 +63,7 @@ export const useFormularioContacto = () => {
         setCamposTocados({})
         setNotificacion({
           abierta: true,
-          mensaje: 'Lorem ipsum: tu mensaje fue enviado correctamente.',
+          mensaje: 'Tu mensaje fue enviado! en breve te contactaré :)',
         })
       }, TIEMPO_ENVIO_SIMULADO)
     },
