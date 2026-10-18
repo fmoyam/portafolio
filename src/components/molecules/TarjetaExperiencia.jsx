@@ -6,6 +6,12 @@ import { Texto } from '../atoms/Texto'
 export const TarjetaExperiencia = ({ experiencia }) => {
   const { empresa, cargo, inicio, termino, actual, descripcion, logros } = experiencia
 
+  const mostrarTermino = () => {
+    if (actual) return 'Actualidad'
+    if (!termino || termino === 'null') return '—'
+    return termino
+  }
+
   return (
     <Card
       sx={{
@@ -29,7 +35,7 @@ export const TarjetaExperiencia = ({ experiencia }) => {
           <Stack direction="row" spacing={1} sx={{ alignItems: 'center', color: 'text.secondary' }}>
             <Icono nombre="calendario" fontSize="small" />
             <Texto variante="body2" componente="span" sx={{ whiteSpace: 'nowrap' }}>
-              {inicio} — {actual ? 'Actualidad' : termino}
+              {inicio} — {mostrarTermino()}
             </Texto>
           </Stack>
         </Stack>

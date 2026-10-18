@@ -109,7 +109,7 @@ export const datosEstudios = [
 export const datosProyectos = [
   {
     id: 'proyecto-1',
-    destacado: true,
+    destacado: false,
     titulo: 'Tienda Guau & Miau',
     categoria: 'Página Web',
     descripcion:

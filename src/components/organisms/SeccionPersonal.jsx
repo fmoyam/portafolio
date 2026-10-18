@@ -48,7 +48,10 @@ export const SeccionPersonal = () => (
           </Boton>
           <Boton
             variante="outlined"
-            href="#"
+            href="/CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="CV_Felipe_Moya_Molina.pdf"
             startIcon={<Icono nombre="descargar" fontSize="small" />}
           >
             Descargar CV
